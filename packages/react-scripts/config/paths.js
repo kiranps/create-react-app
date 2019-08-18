@@ -140,7 +140,7 @@ if (
     appHtml: resolveOwn('template/public/index.html'),
     appIndexJs: resolveModule(resolveOwn, 'template/src/index'),
     appPackageJson: resolveOwn('package.json'),
-    appSrc: resolveOwn('template/src'),
+    appSrc: resolveOwn('template/src/index.bs.js'),
     appTsConfig: resolveOwn('template/tsconfig.json'),
     appJsConfig: resolveOwn('template/jsconfig.json'),
     yarnLockFile: resolveOwn('template/yarn.lock'),
